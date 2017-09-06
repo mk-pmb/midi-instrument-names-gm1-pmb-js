@@ -9,17 +9,9 @@ General MIDI Level 1 (GM1) instrument names (patches, families, drums)
 <!--/#echo -->
 
 
------
-## Development progress:
-
-* Stability: experimental
-* Completeness: low
-* Correctness: not yet GM1 compliant
-
-
 &nbsp;
 
-This library provides POJO (plain old JavaScript objects) representations
+This library provides POJO (plain old JavaScript objects) representation
 of the [GM1 name tables][ptbl-mo] ([archived version][ptbl-wm])
 published on the website of
 __The MIDI Association__ ([www.midi.org][mo-home]).
@@ -38,7 +30,7 @@ I did however acquire permission to "use" those tables and to "implement"
 them in my software, so this program puzzles together non-GM1-compliant
 instrument lists from free software projects into a POJO with the
 authentic GM1 names.
-This way I can avoid sharing actual copies of the original list,
+This way I can avoid sharing actual copies of the original lists,
 by sharing an automated DIY kit instead.
 
 
@@ -48,7 +40,7 @@ Usage
 -----
 
 ```bash
-$ nodejs -p "require('midi-instrument-names-gm1-pmb');"
+$ nodejs -p "require('midi-instrument-names-gm1-pmb')"
 ```
 <!--/include-->
 

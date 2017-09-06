@@ -13,12 +13,14 @@ cons.log = cons.push;
 (function readmeDemo() {
   //#u
   var gm1inst = require('midi-instrument-names-gm1-pmb');
-  equal.lists(Object.keys(gm1inst), [ 'families', 'instruments', 'drums' ]);
+  equal.lists(Object.keys(gm1inst),
+    [ 'families', 'instruments', 'drumsOffset', 'drums' ]);
+  equal(gm1inst.drumsOffset, gm1inst.drums.offset);
   //#r
 
   Object.keys(gm1inst).forEach(function (k) {
     equal.lists(gm1inst[k], nonFree[k]);
-    say(k + ' ok');
+    say('# ' + k + ' ok');
   });
 }(cons));
 

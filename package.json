@@ -1,5 +1,5 @@
 { "name": "midi-instrument-names-gm1-pmb",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "General MIDI Level 1 (GM1) instrument names (patches, families, drums)",
   "keywords": [ "midi", "instrument" ],
 
@@ -19,9 +19,13 @@
   "scripts": { "test": "nodejs test/usage.js" },
   "directories": { "test": "test" },
 
-  "dependencies": {},
+  "dependencies": {
+    "kmid-instruments-kde-svnrev1097325": "^1.0.5",
+    "payasan-base-names-pmb": "^0.1.0"
+  },
   "devDependencies": {
-    "equal-pmb": "^0.1.6"
+    "equal-pmb": "^0.1.13",
+    "usnam-pmb": "^0.2.3"
   },
 
 
