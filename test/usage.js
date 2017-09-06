@@ -15,7 +15,10 @@ cons.log = cons.push;
   var gm1inst = require('midi-instrument-names-gm1-pmb');
   equal.lists(Object.keys(gm1inst),
     [ 'families', 'instruments', 'drumsOffset', 'drums' ]);
+  equal(gm1inst.families.length, 16);
+  equal(gm1inst.instruments.length, 128);
   equal(gm1inst.drumsOffset, gm1inst.drums.offset);
+  equal(gm1inst.drums.length, 47);
   //#r
 
   Object.keys(gm1inst).forEach(function (k) {

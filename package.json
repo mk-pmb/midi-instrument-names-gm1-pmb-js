@@ -1,5 +1,5 @@
 { "name": "midi-instrument-names-gm1-pmb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "General MIDI Level 1 (GM1) instrument names (patches, families, drums)",
   "keywords": [ "midi", "instrument" ],
 

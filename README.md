@@ -39,8 +39,17 @@ by sharing an automated DIY kit instead.
 Usage
 -----
 
-```bash
-$ nodejs -p "require('midi-instrument-names-gm1-pmb')"
+<!--#include file="test/usage.js" start="  //#u" stop="  //#r"
+  outdent="  " code="javascript" -->
+<!--#verbatim lncnt="9" -->
+```javascript
+var gm1inst = require('midi-instrument-names-gm1-pmb');
+equal.lists(Object.keys(gm1inst),
+  [ 'families', 'instruments', 'drumsOffset', 'drums' ]);
+equal(gm1inst.families.length, 16);
+equal(gm1inst.instruments.length, 128);
+equal(gm1inst.drumsOffset, gm1inst.drums.offset);
+equal(gm1inst.drums.length, 47);
 ```
 <!--/include-->
 
