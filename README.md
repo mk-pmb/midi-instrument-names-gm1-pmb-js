@@ -58,6 +58,16 @@ equal(gm1inst.drums.length, 47);
 
 
 
+Clarifications
+--------------
+
+* The GM1 spec defines the names, but it's up to implementers to decide their
+  meaning. Examples:
+  * #8: Both a clavinet and a clavichord are valid examples of a "Clavi".
+
+
+
+
 Known issues
 ------------
 
