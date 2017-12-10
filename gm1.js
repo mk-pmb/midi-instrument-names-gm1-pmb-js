@@ -95,5 +95,5 @@ drums.offset = payaDrums.n_min;
 
 
 
-module.exports = { families: fam, instruments: ins,
+module.exports = { patchSetName: 'GM1', families: fam, instruments: ins,
   drumsOffset: drums.offset, drums: drums };
