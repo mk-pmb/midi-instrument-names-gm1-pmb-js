@@ -1,5 +1,5 @@
 { "name": "midi-instrument-names-gm1-pmb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "General MIDI Level 1 (GM1) instrument names (patches, families, drums)",
   "keywords": [ "midi", "instrument" ],
 
@@ -16,7 +16,7 @@
   "private": false, "license": "ISC",
 
   "main": "gm1.js",
-  "scripts": { "test": "nodejs test/usage.js" },
+  "scripts": { "test": "./test/download-nonfree-files.sh && nodejs test/usage.js" },
   "directories": { "test": "test" },
 
   "dependencies": {
