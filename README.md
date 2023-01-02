@@ -11,7 +11,7 @@ General MIDI Level 1 (GM1) instrument names (patches, families, drums)
 
 &nbsp;
 
-This library provides POJO (plain old JavaScript objects) representation
+This library provides a POJO (plain old JavaScript object) representation
 of the [GM1 name tables][ptbl-mo] ([archived version][ptbl-wm])
 published on the website of
 __The MIDI Association__ ([www.midi.org][mo-home]).
